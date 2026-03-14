@@ -137,12 +137,8 @@ export default function ContactSection() {
                                     <h4 className="text-[#1A1A1A] font-bold mb-1">Office Addresses</h4>
                                     <div className="space-y-3">
                                         <div>
-                                            <p className="text-[#B30000] text-xs font-bold uppercase tracking-wider mb-0.5">Abuja Office</p>
+                                            <p className="text-[#B30000] text-xs font-bold uppercase tracking-wider mb-0.5">Corporate Office</p>
                                             <p className="text-gray-600 text-sm leading-relaxed">No 8 Suez Crescent, Abacha estate, Zone 4, Abuja.</p>
-                                        </div>
-                                        <div>
-                                            <p className="text-[#B30000] text-xs font-bold uppercase tracking-wider mb-0.5">Lagos Office</p>
-                                            <p className="text-gray-600 text-sm leading-relaxed">No 10, Mende Lane, Maryland, Lagos.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -157,7 +153,6 @@ export default function ContactSection() {
                                 <div className="ml-5">
                                     <h4 className="text-[#1A1A1A] font-bold mb-1">Phone</h4>
                                     <p className="text-gray-600 block hover:text-[#B30000] transition">07067799450</p>
-                                    <p className="text-gray-600 block hover:text-[#B30000] transition mt-1">09068879277</p>
                                 </div>
                             </div>
 

@@ -7,7 +7,7 @@ const team = [
         desc: "A visionary leader with a proven track record in driving operational excellence and strategic growth in the technology sector."
     },
     {
-        name: "Kabir Hassan",
+        name: "Osatuyi Ayodeji",
         role: "Chief Operating Officer",
         desc: "Expert in optimizing corporate operations and ensuring business alignment with long-term strategic goals."
     },
@@ -17,7 +17,7 @@ const team = [
         desc: "Accomplished finance executive with expertise in fiscal strategy, risk management, and organizational transparency."
     },
     {
-        name: "HR Manager",
+        name: "Godspower Daniella",
         role: "Human Resource Manager",
         desc: "Dedicated to fostering a high-performance culture and managing talent development at Bisly Nigeria."
     }
