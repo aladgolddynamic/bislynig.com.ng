@@ -35,7 +35,7 @@ export default function HeroSection() {
                             <img
                                 alt="African technology team working in a modern workspace"
                                 className="w-full h-auto object-cover"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwRVxQ8h1TBb3c1VFlEAMGJl7Bwx8jen9i6B_1i1v0JJ9Cz7ktiAb_BFPD9H8ziBjNMKHkRbML5t8YkAjWSu3itFkBTEfXMUYMAVw-O8K6xkwsKcFggpjybuDiTXjcoG2tNXGTWi2dqlBmW5Clj1ZGeNepksDfUmEccxR9JDRROkPLRsANviUIUIIFszuN-kQ85jX_NTt2FV6Mcq05SKrT9EwKescM5b2gERN7wUpt_uDgqNwScyXztsZn3N-hQ2o4oaPyayShD0Qh"
+                                src="/images/hero_team.jpg"
                             />
                             <div className="absolute inset-0 bg-gradient-to-tr from-bislyRed/10 to-transparent pointer-events-none"></div>
                         </div>
