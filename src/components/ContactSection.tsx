@@ -80,7 +80,7 @@ export default function ContactSection() {
                         <circle
                             key={p.id}
                             r={p.r}
-                            fill="#B30000"
+                            fill="#991B1B"
                             opacity={p.opacity}
                         >
                             <animate
@@ -120,14 +120,7 @@ export default function ContactSection() {
                 <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-stretch">
                     {/* Left Column: Contact Details */}
                     <div className="w-full lg:w-1/3 bg-white/80 backdrop-blur-md p-8 rounded-3xl border border-gray-200 shadow-xl relative overflow-hidden group">
-                        <div className="absolute top-0 right-0 w-32 h-32 bg-[#B30000] opacity-5 rounded-full blur-3xl transform group-hover:scale-150 transition-transform duration-700"></div>
-                        <h3 className="text-2xl font-bold text-[#1A1A1A] mb-8 border-b border-gray-100 pb-4">
-                            Get In Touch
-                        </h3>
-
-                        <div className="space-y-8 relative z-10">
-                            <div className="flex items-start">
-                                <div className="flex-shrink-0 mt-1 bg-[#B30000]/10 p-3 rounded-xl text-[#B30000]">
+                                <div className="flex-shrink-0 mt-1 bg-bislyRed/10 p-3 rounded-xl text-bislyRed">
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
@@ -137,7 +130,7 @@ export default function ContactSection() {
                                     <h4 className="text-[#1A1A1A] font-bold mb-1">Office Addresses</h4>
                                     <div className="space-y-3">
                                         <div>
-                                            <p className="text-[#B30000] text-xs font-bold uppercase tracking-wider mb-0.5">Corporate Office</p>
+                                            <p className="text-bislyRed text-xs font-bold uppercase tracking-wider mb-0.5">Corporate Office</p>
                                             <p className="text-gray-600 text-sm leading-relaxed">No 8 Suez Crescent, Abacha estate, Zone 4, Abuja.</p>
                                         </div>
                                     </div>
@@ -145,27 +138,27 @@ export default function ContactSection() {
                             </div>
 
                             <div className="flex items-start">
-                                <div className="flex-shrink-0 mt-1 bg-[#B30000]/10 p-3 rounded-xl text-[#B30000]">
+                                <div className="flex-shrink-0 mt-1 bg-bislyRed/10 p-3 rounded-xl text-bislyRed">
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                                     </svg>
                                 </div>
                                 <div className="ml-5">
                                     <h4 className="text-[#1A1A1A] font-bold mb-1">Phone</h4>
-                                    <p className="text-gray-600 block hover:text-[#B30000] transition">07067799450</p>
+                                    <p className="text-gray-600 block hover:text-bislyRed transition">07067799450</p>
                                 </div>
                             </div>
 
                             <div className="flex items-start">
-                                <div className="flex-shrink-0 mt-1 bg-[#B30000]/10 p-3 rounded-xl text-[#B30000]">
+                                <div className="flex-shrink-0 mt-1 bg-bislyRed/10 p-3 rounded-xl text-bislyRed">
                                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                                     </svg>
                                 </div>
                                 <div className="ml-5">
                                     <h4 className="text-[#1A1A1A] font-bold mb-1">Email</h4>
-                                    <a href="mailto:info@bislynig.com.ng" className="text-gray-600 hover:text-[#B30000] transition group block">
-                                        <span className="border-b border-transparent group-hover:border-[#B30000] pb-0.5">
+                                    <a href="mailto:info@bislynig.com.ng" className="text-gray-600 hover:text-bislyRed transition group block">
+                                        <span className="border-b border-transparent group-hover:border-bislyRed pb-0.5">
                                             info@bislynig.com.ng
                                         </span>
                                     </a>
@@ -217,7 +210,7 @@ export default function ContactSection() {
                                 </p>
                                 <button
                                     onClick={() => setStatus("idle")}
-                                    className="text-[#B30000] font-bold hover:underline"
+                                    className="text-bislyRed font-bold hover:underline"
                                 >
                                     Send another message
                                 </button>
@@ -227,28 +220,28 @@ export default function ContactSection() {
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <div>
                                         <label htmlFor="fullName" className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                                            Full Name <span className="text-[#B30000]">*</span>
+                                            Full Name <span className="text-bislyRed">*</span>
                                         </label>
                                         <input
                                             type="text"
                                             id="fullName"
                                             value={formData.fullName}
                                             onChange={handleChange}
-                                            className="w-full px-5 py-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/30 text-[#1A1A1A] placeholder-gray-500 focus:ring-2 focus:ring-[#B30000] focus:border-transparent transition outline-none"
+                                            className="w-full px-5 py-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/30 text-[#1A1A1A] placeholder-gray-500 focus:ring-2 focus:ring-bislyRed focus:border-transparent transition outline-none"
                                             placeholder="John Doe"
                                             required
                                         />
                                     </div>
                                     <div>
                                         <label htmlFor="email" className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                                            Email Address <span className="text-[#B30000]">*</span>
+                                            Email Address <span className="text-bislyRed">*</span>
                                         </label>
                                         <input
                                             type="email"
                                             id="email"
                                             value={formData.email}
                                             onChange={handleChange}
-                                            className="w-full px-5 py-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/30 text-[#1A1A1A] placeholder-gray-500 focus:ring-2 focus:ring-[#B30000] focus:border-transparent transition outline-none"
+                                            className="w-full px-5 py-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/30 text-[#1A1A1A] placeholder-gray-500 focus:ring-2 focus:ring-bislyRed focus:border-transparent transition outline-none"
                                             placeholder="john@example.com"
                                             required
                                         />
@@ -265,7 +258,7 @@ export default function ContactSection() {
                                             id="phone"
                                             value={formData.phone}
                                             onChange={handleChange}
-                                            className="w-full px-5 py-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/30 text-[#1A1A1A] placeholder-gray-500 focus:ring-2 focus:ring-[#B30000] focus:border-transparent transition outline-none"
+                                            className="w-full px-5 py-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/30 text-[#1A1A1A] placeholder-gray-500 focus:ring-2 focus:ring-bislyRed focus:border-transparent transition outline-none"
                                             placeholder="+234 ..."
                                         />
                                     </div>
@@ -278,7 +271,7 @@ export default function ContactSection() {
                                             id="company"
                                             value={formData.company}
                                             onChange={handleChange}
-                                            className="w-full px-5 py-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/30 text-[#1A1A1A] placeholder-gray-500 focus:ring-2 focus:ring-[#B30000] focus:border-transparent transition outline-none"
+                                            className="w-full px-5 py-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/30 text-[#1A1A1A] placeholder-gray-500 focus:ring-2 focus:ring-bislyRed focus:border-transparent transition outline-none"
                                             placeholder="Your Company Ltd"
                                         />
                                     </div>
@@ -286,14 +279,14 @@ export default function ContactSection() {
 
                                 <div>
                                     <label htmlFor="service" className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                                        Service of Interest <span className="text-[#B30000]">*</span>
+                                        Service of Interest <span className="text-bislyRed">*</span>
                                     </label>
                                     <div className="relative">
                                         <select
                                             id="service"
                                             value={formData.service}
                                             onChange={handleChange}
-                                            className="w-full px-5 py-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/30 text-[#1A1A1A] focus:ring-2 focus:ring-[#B30000] focus:border-transparent transition outline-none appearance-none [&>option]:text-[#1A1A1A]"
+                                            className="w-full px-5 py-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/30 text-[#1A1A1A] focus:ring-2 focus:ring-bislyRed focus:border-transparent transition outline-none appearance-none [&>option]:text-[#1A1A1A]"
                                             required
                                         >
                                             <option value="" disabled className="text-gray-500">Select a service...</option>
@@ -316,21 +309,21 @@ export default function ContactSection() {
 
                                 <div>
                                     <label htmlFor="message" className="block text-sm font-semibold text-[#1A1A1A] mb-2">
-                                        Message <span className="text-[#B30000]">*</span>
+                                        Message <span className="text-bislyRed">*</span>
                                     </label>
                                     <textarea
                                         id="message"
                                         rows={5}
                                         value={formData.message}
                                         onChange={handleChange}
-                                        className="w-full px-5 py-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/30 text-[#1A1A1A] placeholder-gray-500 focus:ring-2 focus:ring-[#B30000] focus:border-transparent transition outline-none resize-y"
+                                        className="w-full px-5 py-4 bg-white/50 backdrop-blur-sm rounded-xl border border-white/30 text-[#1A1A1A] placeholder-gray-500 focus:ring-2 focus:ring-bislyRed focus:border-transparent transition outline-none resize-y"
                                         placeholder="Tell us about your project..."
                                         required
                                     ></textarea>
                                 </div>
 
                                 {status === "error" && (
-                                    <div className="p-4 bg-red-50 border border-red-100 text-[#B30000] text-sm rounded-xl">
+                                    <div className="p-4 bg-red-50 border border-red-100 text-bislyRed text-sm rounded-xl">
                                         {errorMessage}
                                     </div>
                                 )}
@@ -339,7 +332,7 @@ export default function ContactSection() {
                                     <button
                                         type="submit"
                                         disabled={status === "loading"}
-                                        className="w-full px-8 py-5 bg-[#B30000] hover:bg-[#8B0000] disabled:bg-gray-400 text-white font-bold text-lg rounded-xl shadow-[0_4px_14px_0_rgba(179,0,0,0.39)] hover:shadow-[0_6px_25px_rgba(179,0,0,0.4)] transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center"
+                                        className="w-full px-8 py-5 bg-bislyRed hover:bg-[#7F1D1D] disabled:bg-gray-400 text-white font-bold text-lg rounded-xl shadow-[0_4px_14px_0_rgba(153,27,27,0.39)] hover:shadow-[0_6px_25px_rgba(153,27,27,0.4)] transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center"
                                     >
                                         {status === "loading" ? (
                                             <>

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bislyRed: #B30000;
+  --color-bislyRed: #991B1B;
   --color-bislyCharcoal: #1A1A1A;
 }
 
@@ -54,11 +54,11 @@
   @keyframes pulsate-line {
     0%, 100% { 
       transform: scaleX(1);
-      box-shadow: 0 0 0 rgba(179, 0, 0, 0);
+      box-shadow: 0 0 0 rgba(153, 27, 27, 0);
     }
     50% { 
       transform: scaleX(1.1);
-      box-shadow: 0 0 12px rgba(179, 0, 0, 0.7);
+      box-shadow: 0 0 12px rgba(153, 27, 27, 0.7);
     }
   }
 
@@ -70,11 +70,11 @@
   .animate-premium-line {
     background: linear-gradient(
       90deg, 
-      #B30000 0%, 
-      #FF3333 45%, 
+      #991B1B 0%, 
+      #B91C1C 45%, 
       #FFFFFF 50%, 
-      #FF3333 55%, 
-      #B30000 100%
+      #B91C1C 55%, 
+      #991B1B 100%
     );
     background-size: 200% 100%;
     /* Combine: Expand (1s), Pulse (infinite), Shimmer (infinite) */

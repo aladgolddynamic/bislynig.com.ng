@@ -61,7 +61,7 @@ export default function IndustriesSection() {
     return (
         <section className="py-24 bg-gray-100 relative overflow-hidden" id="industries">
             {/* Background decoration */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-[#B30000]/5 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
+            <div className="absolute top-0 right-0 w-64 h-64 bg-bislyRed/5 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none"></div>
             <div className="absolute bottom-0 left-0 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl -ml-20 -mb-20 pointer-events-none"></div>
 
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -80,14 +80,14 @@ export default function IndustriesSection() {
                             style={{ transitionDelay: `${index * 50}ms` }}
                         >
                             {/* Animated left border on hover */}
-                            <div className="absolute top-0 left-0 w-1.5 h-full bg-[#B30000] transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
+                            <div className="absolute top-0 left-0 w-1.5 h-full bg-bislyRed transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300"></div>
                             
-                            <div className="w-16 h-16 rounded-xl bg-[#B30000]/10 flex items-center justify-center text-[#B30000] mr-6 group-hover:bg-[#B30000] group-hover:text-white transition-colors duration-300 flex-shrink-0 shadow-inner">
+                            <div className="w-16 h-16 rounded-xl bg-bislyRed/10 flex items-center justify-center text-bislyRed mr-6 group-hover:bg-bislyRed group-hover:text-white transition-colors duration-300 flex-shrink-0 shadow-inner">
                                 {ind.icon}
                             </div>
                             
                             <div className="pt-2">
-                                <h3 className="text-xl font-bold text-[#1A1A1A] group-hover:text-[#B30000] transition-colors mb-2">
+                                <h3 className="text-xl font-bold text-[#1A1A1A] group-hover:text-bislyRed transition-colors mb-2">
                                     {ind.name}
                                 </h3>
                                 <p className="text-sm text-gray-500 leading-relaxed group-hover:text-gray-700 transition-colors">

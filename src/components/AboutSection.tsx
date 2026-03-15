@@ -29,7 +29,7 @@ export default function AboutSection() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex flex-col lg:flex-row gap-16 items-center">
                     <div className="lg:w-1/2 group/text transition-all duration-500 hover:scale-[1.01]">
-                        <h2 className="text-3xl font-bold text-[#1A1A1A] mb-6 border-l-4 border-[#B30000] pl-4 transition-colors duration-300">
+                        <h2 className="text-3xl font-bold text-[#1A1A1A] mb-6 border-l-4 border-bislyRed pl-4 transition-colors duration-300">
                             About Bisly Nigeria Limited
                         </h2>
                         <div className="space-y-6">
@@ -44,16 +44,16 @@ export default function AboutSection() {
                             </p>
                         </div>
                         <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
-                            <div className="p-4 bg-white rounded-lg shadow-sm border-t-2 border-[#B30000] transform transition-all duration-700 hover:-translate-y-4 hover:shadow-xl animate-slide-up cursor-default">
-                                <span className="block text-2xl font-bold text-[#B30000]">150+</span>
+                            <div className="p-4 bg-white rounded-lg shadow-sm border-t-2 border-bislyRed transform transition-all duration-700 hover:-translate-y-4 hover:shadow-xl animate-slide-up cursor-default">
+                                <span className="block text-2xl font-bold text-bislyRed">150+</span>
                                 <span className="text-sm text-gray-500 uppercase tracking-wide">Projects Delivered</span>
                             </div>
-                            <div className="p-4 bg-white rounded-lg shadow-sm border-t-2 border-[#B30000] transform transition-all duration-700 hover:-translate-y-4 hover:shadow-xl animate-slide-up delay-150 cursor-default">
-                                <span className="block text-2xl font-bold text-[#B30000]">20+</span>
+                            <div className="p-4 bg-white rounded-lg shadow-sm border-t-2 border-bislyRed transform transition-all duration-700 hover:-translate-y-4 hover:shadow-xl animate-slide-up delay-150 cursor-default">
+                                <span className="block text-2xl font-bold text-bislyRed">20+</span>
                                 <span className="text-sm text-gray-500 uppercase tracking-wide">Technologies Used</span>
                             </div>
-                            <div className="p-4 bg-white rounded-lg shadow-sm border-t-2 border-[#B30000] transform transition-all duration-700 hover:-translate-y-4 hover:shadow-xl animate-slide-up delay-300 cursor-default">
-                                <span className="block text-2xl font-bold text-[#B30000]">6+</span>
+                            <div className="p-4 bg-white rounded-lg shadow-sm border-t-2 border-bislyRed transform transition-all duration-700 hover:-translate-y-4 hover:shadow-xl animate-slide-up delay-300 cursor-default">
+                                <span className="block text-2xl font-bold text-bislyRed">6+</span>
                                 <span className="text-sm text-gray-500 uppercase tracking-wide">Industries Served</span>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ export default function AboutSection() {
                                         }`}
                                         src={img}
                                     />
-                                    <div className="absolute inset-0 bg-gradient-to-tr from-[#B30000]/10 to-transparent"></div>
+                                    <div className="absolute inset-0 bg-gradient-to-tr from-bislyRed/10 to-transparent"></div>
                                 </div>
                             );
                         })}
@@ -90,7 +90,7 @@ export default function AboutSection() {
                             {images.map((_, i) => (
                                 <div 
                                     key={i} 
-                                    className={`h-1.5 rounded-full transition-all duration-500 ${activeIndex === i ? "w-8 bg-[#B30000]" : "w-2 bg-white/50"}`}
+                                    className={`h-1.5 rounded-full transition-all duration-500 ${activeIndex === i ? "w-8 bg-bislyRed" : "w-2 bg-white/50"}`}
                                 />
                             ))}
                         </div>

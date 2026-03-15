@@ -93,7 +93,7 @@ function ExpertiseCard({ area }: { area: typeof expertiseAreas[0] }) {
 
     return (
         <div 
-            className="group relative h-96 overflow-hidden rounded-2xl shadow-lg cursor-pointer transition-all duration-150 hover:scale-110 z-0 hover:z-20 hover:ring-1 hover:ring-[#B30000]"
+            className="group relative h-96 overflow-hidden rounded-2xl shadow-lg cursor-pointer transition-all duration-150 hover:scale-110 z-0 hover:z-20 hover:ring-1 hover:ring-bislyRed"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
         >
@@ -112,7 +112,7 @@ function ExpertiseCard({ area }: { area: typeof expertiseAreas[0] }) {
             <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent group-hover:via-black/70 transition-colors duration-300"></div>
             
             <div className="absolute inset-0 p-8 flex flex-col justify-end text-white">
-                <h3 className="text-2xl font-bold mb-2 text-[#B30000] group-hover:text-white drop-shadow-sm transition-all duration-300 group-hover:-translate-y-2">
+                <h3 className="text-2xl font-bold mb-2 text-bislyRed group-hover:text-white drop-shadow-sm transition-all duration-300 group-hover:-translate-y-2">
                     {area.title}
                 </h3>
                 <p className="text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0 text-gray-200">

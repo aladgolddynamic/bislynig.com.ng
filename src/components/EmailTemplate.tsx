@@ -32,7 +32,7 @@ export const EmailTemplate: React.FC<Readonly<EmailTemplateProps>> = ({
     borderRadius: '8px'
   }}>
     <h1 style={{ 
-      color: '#B30000', 
+      color: '#991B1B', 
       fontSize: '20px', 
       fontWeight: 'bold',
       marginBottom: '16px',

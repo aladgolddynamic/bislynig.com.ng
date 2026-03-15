@@ -10,7 +10,7 @@ export default function WhyChooseSection() {
                         <div className="space-y-8">
                             <div className="flex items-start">
                                 <div className="flex-shrink-0 mt-1">
-                                    <div className="h-6 w-6 text-[#B30000]">
+                                    <div className="h-6 w-6 text-bislyRed">
                                         <svg fill="currentColor" viewBox="0 0 20 20">
                                             <path
                                                 clipRule="evenodd"
@@ -29,7 +29,7 @@ export default function WhyChooseSection() {
                             </div>
                             <div className="flex items-start">
                                 <div className="flex-shrink-0 mt-1">
-                                    <div className="h-6 w-6 text-[#B30000]">
+                                    <div className="h-6 w-6 text-bislyRed">
                                         <svg fill="currentColor" viewBox="0 0 20 20">
                                             <path
                                                 clipRule="evenodd"
@@ -48,7 +48,7 @@ export default function WhyChooseSection() {
                             </div>
                             <div className="flex items-start">
                                 <div className="flex-shrink-0 mt-1">
-                                    <div className="h-6 w-6 text-[#B30000]">
+                                    <div className="h-6 w-6 text-bislyRed">
                                         <svg fill="currentColor" viewBox="0 0 20 20">
                                             <path
                                                 clipRule="evenodd"

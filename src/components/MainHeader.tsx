@@ -28,21 +28,21 @@ export default function MainHeader() {
 
                         {/* Desktop Navigation */}
                         <nav className="hidden md:flex space-x-8 items-center" data-purpose="desktop-nav">
-                            <Link href="#about" className="text-sm font-semibold text-[#1A1A1A] hover:text-[#B30000] nav-link-hover">
+                            <Link href="#about" className="text-sm font-semibold text-[#1A1A1A] hover:text-bislyRed nav-link-hover">
                                 About
                             </Link>
-                            <Link href="#services" className="text-sm font-semibold text-[#1A1A1A] hover:text-[#B30000] nav-link-hover">
+                            <Link href="#services" className="text-sm font-semibold text-[#1A1A1A] hover:text-bislyRed nav-link-hover">
                                 Services
                             </Link>
-                            <Link href="#expertise" className="text-sm font-semibold text-[#1A1A1A] hover:text-[#B30000] nav-link-hover">
+                            <Link href="#expertise" className="text-sm font-semibold text-[#1A1A1A] hover:text-bislyRed nav-link-hover">
                                 Expertise
                             </Link>
-                            <Link href="#industries" className="text-sm font-semibold text-[#1A1A1A] hover:text-[#B30000] nav-link-hover">
+                            <Link href="#industries" className="text-sm font-semibold text-[#1A1A1A] hover:text-bislyRed nav-link-hover">
                                 Industries
                             </Link>
                             <Link
                                 href="#contact"
-                                className="inline-flex items-center px-5 py-2.5 border border-transparent text-sm font-bold rounded-md text-white bg-[#B30000] hover:bg-[#8B0000] transition shadow-md"
+                                className="inline-flex items-center px-5 py-2.5 border border-transparent text-sm font-bold rounded-md text-white bg-bislyRed hover:bg-[#7F1D1D] transition shadow-md"
                             >
                                 Get Started
                             </Link>
@@ -51,7 +51,7 @@ export default function MainHeader() {
                         {/* Mobile Menu Button */}
                         <div className="md:hidden flex items-center">
                             <button
-                                className="text-[#1A1A1A] hover:text-[#B30000] focus:outline-none"
+                                className="text-[#1A1A1A] hover:text-bislyRed focus:outline-none"
                                 type="button"
                                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                             >
@@ -74,28 +74,28 @@ export default function MainHeader() {
                         <div className="px-4 pt-2 pb-6 space-y-1 sm:px-3 flex flex-col">
                             <Link
                                 href="#about"
-                                className="block px-3 py-3 rounded-md text-base font-medium text-[#1A1A1A] hover:text-[#B30000] hover:bg-gray-50"
+                                className="block px-3 py-3 rounded-md text-base font-medium text-[#1A1A1A] hover:text-bislyRed hover:bg-gray-50"
                                 onClick={() => setIsMobileMenuOpen(false)}
                             >
                                 About
                             </Link>
                             <Link
                                 href="#services"
-                                className="block px-3 py-3 rounded-md text-base font-medium text-[#1A1A1A] hover:text-[#B30000] hover:bg-gray-50"
+                                className="block px-3 py-3 rounded-md text-base font-medium text-[#1A1A1A] hover:text-bislyRed hover:bg-gray-50"
                                 onClick={() => setIsMobileMenuOpen(false)}
                             >
                                 Services
                             </Link>
                             <Link
                                 href="#expertise"
-                                className="block px-3 py-3 rounded-md text-base font-medium text-[#1A1A1A] hover:text-[#B30000] hover:bg-gray-50"
+                                className="block px-3 py-3 rounded-md text-base font-medium text-[#1A1A1A] hover:text-bislyRed hover:bg-gray-50"
                                 onClick={() => setIsMobileMenuOpen(false)}
                             >
                                 Expertise
                             </Link>
                             <Link
                                 href="#industries"
-                                className="block px-3 py-3 rounded-md text-base font-medium text-[#1A1A1A] hover:text-[#B30000] hover:bg-gray-50"
+                                className="block px-3 py-3 rounded-md text-base font-medium text-[#1A1A1A] hover:text-bislyRed hover:bg-gray-50"
                                 onClick={() => setIsMobileMenuOpen(false)}
                             >
                                 Industries
@@ -103,7 +103,7 @@ export default function MainHeader() {
                             <div className="pt-4 pb-2">
                                 <Link
                                     href="#contact"
-                                    className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-bold rounded-md text-white bg-[#B30000] hover:bg-[#8B0000] shadow-sm"
+                                    className="w-full flex items-center justify-center px-5 py-3 border border-transparent text-base font-bold rounded-md text-white bg-bislyRed hover:bg-[#7F1D1D] shadow-sm"
                                     onClick={() => setIsMobileMenuOpen(false)}
                                 >
                                     Get Started
