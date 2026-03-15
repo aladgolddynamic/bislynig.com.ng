@@ -63,11 +63,14 @@ export default function ContactSection() {
                 });
             } else {
                 setStatus("error");
-                setErrorMessage(result.error || "Something went wrong. Please try again.");
+                const msg = typeof result.error === 'object' 
+                    ? (result.error.message || JSON.stringify(result.error)) 
+                    : (result.error || "Something went wrong. Please try again.");
+                setErrorMessage(msg);
             }
-        } catch (err) {
+        } catch (err: any) {
             setStatus("error");
-            setErrorMessage("Failed to send message. Please check your connection.");
+            setErrorMessage(err.message || "Failed to send message. Please check your connection.");
         }
     };
 

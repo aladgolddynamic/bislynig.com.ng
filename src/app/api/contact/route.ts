@@ -34,12 +34,13 @@ export async function POST(request: Request) {
 
     if (error) {
       console.error('Resend Error:', error);
-      return Response.json({ error }, { status: 500 });
+      const message = typeof error === 'object' ? (error as any).message : String(error);
+      return Response.json({ error: message || 'Failed to send email' }, { status: 500 });
     }
 
     return Response.json(data);
   } catch (err: any) {
     console.error('API Error:', err);
-    return Response.json({ error: err.message }, { status: 500 });
+    return Response.json({ error: err.message || 'Internal Server Error' }, { status: 500 });
   }
 }
