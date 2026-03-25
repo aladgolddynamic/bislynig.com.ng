@@ -21,6 +21,7 @@ export default function MainHeader() {
                                     src="/logo.png"
                                     width={150}
                                     height={48}
+                                    style={{ width: "auto" }}
                                     priority
                                 />
                             </Link>

@@ -43,7 +43,7 @@ export default function ContactSection() {
         setErrorMessage("");
 
         try {
-            const response = await fetch("/api/contact", {
+            const response = await fetch("https://bislymailapi.vercel.app/api/contact", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify(formData),
@@ -63,14 +63,14 @@ export default function ContactSection() {
                 });
             } else {
                 setStatus("error");
-                const msg = typeof result.error === 'object' 
-                    ? (result.error.message || JSON.stringify(result.error)) 
-                    : (result.error || "Something went wrong. Please try again.");
+                const msg = (result.data && result.data.error) || result.error || "Something went wrong. Please try again.";
                 setErrorMessage(msg);
             }
         } catch (err: any) {
             setStatus("error");
-            setErrorMessage(err.message || "Failed to send message. Please check your connection.");
+            const fallbackMsg = "Failed to send message. Please check your connection.";
+            setErrorMessage(fallbackMsg);
+            alert(fallbackMsg);
         }
     };
 
